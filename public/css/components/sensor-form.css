@@ -1,0 +1,61 @@
+/* Sensor form styles */
+.sensor-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sensor-form .form-group {
+  margin-bottom: var(--spacing-md);
+}
+
+.sensor-form .form-label {
+  font-weight: 500;
+  color: var(--gray-600);
+}
+
+.sensor-form .form-control:focus {
+  border-color: var(--primary_green_900);
+  box-shadow: 0 0 0 0.2rem rgba(75, 189, 23, 0.25);
+}
+
+.sensor-form .btn-submit {
+  background: var(--primary_green_900);
+  color: var(--white);
+}
+
+.sensor-form .btn-submit:hover {
+  background: var(--secundary_green_950);
+}
+
+.sensor-form .form-select {
+  width: 100%;
+  padding: var(--spacing-sm);
+  border: 1px solid var(--gray_40);
+  border-radius: var(--border-radius);
+  background-color: var(--white);
+  color: var(--primary_blue_100);
+}
+
+.sensor-form .form-select:focus {
+  border-color: var(--primary_green_900);
+  box-shadow: 0 0 0 0.2rem rgba(75, 189, 23, 0.25);
+}
+
+.sensor-form .form-check {
+  margin-bottom: var(--spacing-sm);
+}
+
+.sensor-form .form-check-input:checked {
+  background-color: var(--primary_green_900);
+  border-color: var(--primary_green_900);
+}
+
+.sensor-form .form-check-label {
+  color: var(--gray-600);
+}
+
+.sensor-form .invalid-feedback {
+  color: var(--danger);
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+} 

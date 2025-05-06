@@ -1,0 +1,77 @@
+/* Sensor detail styles */
+.sensor-detail-card {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--spacing-md);
+  transition: var(--transition);
+}
+
+.sensor-detail-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.sensor-detail-header {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--gray_40);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sensor-detail-body {
+  padding: var(--spacing-md);
+}
+
+.sensor-detail-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.sensor-detail-info-group {
+  margin-bottom: var(--spacing-md);
+}
+
+.sensor-detail-info-label {
+  font-weight: 500;
+  color: var(--gray-600);
+  margin-bottom: var(--spacing-xs);
+}
+
+.sensor-detail-info-value {
+  font-size: 1.1rem;
+  color: var(--primary_blue_100);
+}
+
+.sensor-detail-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.sensor-detail-chart {
+  height: 300px;
+  margin-top: var(--spacing-md);
+}
+
+.sensor-detail-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sensor-detail-table th,
+.sensor-detail-table td {
+  padding: var(--spacing-sm);
+  border-bottom: 1px solid var(--gray_40);
+  text-align: left;
+}
+
+.sensor-detail-table th {
+  font-weight: 600;
+  color: var(--gray-600);
+  background: var(--gray_20);
+}
+
+.sensor-detail-table tr:hover {
+  background: var(--gray_20);
+} 

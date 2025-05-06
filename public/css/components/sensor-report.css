@@ -1,0 +1,91 @@
+/* Sensor report styles */
+.sensor-report-card {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--spacing-md);
+  transition: var(--transition);
+}
+
+.sensor-report-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.sensor-report-header {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--gray_40);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sensor-report-body {
+  padding: var(--spacing-md);
+}
+
+.sensor-report-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.sensor-report-chart {
+  height: 400px;
+  margin-bottom: var(--spacing-md);
+}
+
+.sensor-report-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sensor-report-table th,
+.sensor-report-table td {
+  padding: var(--spacing-sm);
+  border-bottom: 1px solid var(--gray_40);
+  text-align: left;
+}
+
+.sensor-report-table th {
+  font-weight: 600;
+  color: var(--gray-600);
+  background: var(--gray_20);
+}
+
+.sensor-report-table tr:hover {
+  background: var(--gray_20);
+}
+
+.sensor-report-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.sensor-report-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.sensor-report-stat {
+  background: var(--gray_20);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  text-align: center;
+}
+
+.sensor-report-stat-label {
+  font-weight: 500;
+  color: var(--gray-600);
+  margin-bottom: var(--spacing-xs);
+}
+
+.sensor-report-stat-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary_blue_100);
+} 

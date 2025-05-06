@@ -1,0 +1,158 @@
+.list-page {
+  padding: 1.5rem;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.list-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.list-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-section {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-input-group {
+  display: flex;
+  flex: 1;
+  max-width: 300px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.filter-group {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.filter-select {
+  padding: 0.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.table-section {
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.pagination-section {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+
+.pagination-label {
+  align-self: center;
+  margin-right: 0.5rem;
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.rows-per-page {
+  padding: 0.25rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  width: 70px;
+}
+
+/* Botones */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  font-size: 0.875rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn i {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background: #0d6efd;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0b5ed7;
+}
+
+.btn-success {
+  background: #198754;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #157347;
+}
+
+.btn-danger {
+  background: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #bb2d3b;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #6c757d;
+}
+
+.empty-state i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Loading state */
+.loading-state {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+}
+
+.spinner {
+  width: 2rem;
+  height: 2rem;
+  border: 0.25rem solid #f3f3f3;
+  border-top: 0.25rem solid #0d6efd;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
